@@ -23,7 +23,8 @@
 
   <div>
     <%= form.label :gender, style: "display: block" %>
-    <%= form.number_field :gender %>
+    <%#= form.number_field :gender %>
+    <%= form.select :gender, User.genders.keys %>
   </div>
 
   <div>
