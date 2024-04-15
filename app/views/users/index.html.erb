@@ -6,8 +6,8 @@
   <% @users.each do |user| %>
     <%= render user %>
     <p>
-      <%= link_to "Ver mas....", user %>
-    </p>
+      <%= link_to "Ver mas...", user, class: "badge rounded-pill text-bg-warning" %> 
+     </p>
   <% end %>
 </div>
 

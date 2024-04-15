@@ -16,21 +16,22 @@
     <%= form.text_field :name %>
   </div>
 
+  <br>
   <div>
     <%= form.label :Fecha_nacimiento, style: "display: block" %>
     <%= form.date_field :birthdate %>
   </div>
-
+  <br>
   <div>
     <%= form.label :Genero, style: "display: block" %>
     <%= form.select :gender, User.genders.keys %>
   </div>
-
+  <br>
   <div>
     <%= form.label :Pais_origen, style: "display: block" %>
     <%= form.text_field :country %>
   </div>
-
+  <br>
   <div>
     <%= form.submit "Guadar Datos" %>
   </div>

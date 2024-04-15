@@ -3,8 +3,6 @@
 <%= render @user %>
 
 <div>
-  <%= link_to "Editar usuario", edit_user_path(@user) %> |
-
-
-  <%= button_to "Eliminar usuario", @user, method: :delete %>
+  <%= link_to "Editar datos", edit_user_path(@user), class: "badge rounded-pill text-bg-warning" %> 
+  <%= button_to "Eliminar Registro", @user, method: :delete, class: "badge rounded-pill text-bg-primary mt-3" %>
 </div>

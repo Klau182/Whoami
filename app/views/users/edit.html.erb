@@ -1,10 +1,10 @@
-<h1>Editing user</h1>
+<h1>Editar Usuario</h1>
 
 <%= render "form", user: @user %>
 
 <br>
 
 <div>
-  <%= link_to "Show this user", @user %> |
-  <%= link_to "Back to users", users_path %>
+  <%= link_to "Mostrar datos", @user, class: "badge rounded-pill text-bg-primary" %> 
+  <%= link_to "Volver a pagina principal", users_path, class: "badge rounded-pill text-bg-primary" %>
 </div>
