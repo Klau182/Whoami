@@ -32,4 +32,7 @@ se ingresen de manera obligatoria, esto se hace en el modelo
     enum :gender, { mujer: 0, hombre: 1, "no definido": 2 } 
 
 
+modificando nombres de los formularios
+y navbar
 
+pegar cdn de los iconitos y elegir el que desees
